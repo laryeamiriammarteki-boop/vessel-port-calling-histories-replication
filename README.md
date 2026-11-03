@@ -1,6 +1,6 @@
-# Vessel–port calling histories: replication package
+﻿# Vessel–port calling histories: replication package
 
-**Status:** Local public-package root (privacy-safe). Not yet pushed to a remote.
+**Status:** Public replication package (privacy-safe scripts and redacted aggregates).
 
 This package reproduces selected analytical checks for a study of vessel–port calling histories constructed from public U.S. AIS broadcast points: dwell/turnaround measures, history associations, forecast/scheduling sensitivity, and port comparison aggregates.
 
