@@ -1,5 +1,5 @@
 # PENDING — illustrative only; not a verified lockfile.
-name: tp-vessel-port-calling-histories
+name: us-ports-prediction-schedule-comparisons
 channels:
   - conda-forge
 dependencies:

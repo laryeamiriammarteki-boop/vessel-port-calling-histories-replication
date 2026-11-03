@@ -1,8 +1,8 @@
-﻿# Vessel–port calling histories: replication package
+﻿# Can vessel-port calling histories support port-time prediction, schedule allowances, and vessel-adjusted port comparisons? Evidence from seven U.S. ports
 
-**Status:** Public replication package (privacy-safe scripts and redacted aggregates).
+**Replication package** (privacy-safe scripts and redacted aggregates).
 
-This package reproduces selected analytical checks for a study of vessel–port calling histories constructed from public U.S. AIS broadcast points: dwell/turnaround measures, history associations, forecast/scheduling sensitivity, and port comparison aggregates.
+This package supports selected analytical checks for the study titled above. Outcomes covered in the public aggregates and portable scripts include port-time / dwell measures, next-call prediction and schedule-allowance sensitivity, and vessel-adjusted port-comparison summaries, constructed from public U.S. AIS broadcast points for seven U.S. ports.
 
 It is a **code and aggregate-data replication package**, not a manuscript archive.
 
