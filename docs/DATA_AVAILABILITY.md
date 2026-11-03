@@ -13,11 +13,11 @@ Path-redacted aggregate frozen analytical tables under `data/aggregates/` and po
 
 ## Restricted
 
-Vessel-level panels with vessel identifiers and relationship-specific calling histories are **not** included. They remain author-gated because of privacy / re-identification risk in a small multi-port network.
+Vessel-level panels with vessel identifiers and relationship-specific calling histories are **not** included. They remain author-gated because of privacy and re-identification risk in a small multi-port network.
 
 ## Repository URL / DOI
 
-- Public repository: https://github.com/laryeamiriammarteki-boop/vessel-port-calling-histories-replication
-- Blinded review mirror: https://anonymous.4open.science/r/vessel-port-calling-histories-replication-8314/
+- Blinded review mirror of this package: https://anonymous.4open.science/r/vessel-port-calling-histories-replication-8314/
+- An open (non-blinded) code repository also hosts the same privacy-safe package; its identifying URL is omitted here for anonymous peer review and can be supplied after acceptance.
 - Research-data DOI: none issued
 - License: MIT (Study Authors)
