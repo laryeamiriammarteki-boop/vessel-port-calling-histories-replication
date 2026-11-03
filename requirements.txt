@@ -1,0 +1,13 @@
+# PENDING lock — do not treat as verified pins.
+# Intended stack (from lineage spot-check; versions to be frozen after authorized dry-run):
+pandas
+numpy
+pyarrow
+scipy
+statsmodels
+linearmodels
+matplotlib
+# Optional / figure / geo (confirm before pin):
+# geopandas
+# cartopy
+# pyproj

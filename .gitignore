@@ -1,0 +1,36 @@
+# Manuscript / identity artefacts (never publish)
+*.docx
+*.doc
+*.pdf
+*.pptx
+CITATION.cff
+COVER_LETTER*
+AUTHOR_METADATA*
+TITLE_PAGE*
+**/REFERENCES.md
+**/references.bib
+**/anonymous_deposit/
+
+# Local secrets / machine paths
+paths_config.local.json
+config/paths_config.local.json
+.env
+*.pem
+
+# Python / tooling
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.cursor/
+.DS_Store
+Thumbs.db
+
+# Large private derived panels (author-gated)
+data/derived_vessel_level/
+*.parquet
+
+# Local pilot / scratch outputs
+outputs/
+repro_pilot_outputs/
+*.log

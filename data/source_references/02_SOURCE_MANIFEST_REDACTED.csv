@@ -1,0 +1,7 @@
+﻿"YEAR","PERIOD","ROOT_PATH","FILE_PATTERN","EXPECTED_DAYS","OBSERVED_DAYS","ROLE","APPROVED"
+"2021","FULL","<LOCAL_AIS_ROOT>/02_six_port_filtered_parquet","ais-filtered-2021-*.parquet","365","365","WASHIN_AND_HISTORY","TRUE"
+"2022","FULL","<LOCAL_AIS_ROOT>/marine_cadastre_filtered","ais-filtered-2022-*.parquet","365","365","ESTIMATION_AND_HISTORY","TRUE"
+"2023","FULL","<LOCAL_AIS_ROOT>/marine_cadastre_filtered","ais-filtered-2023-*.parquet","365","365","ESTIMATION_AND_HISTORY","TRUE"
+"2024","H1","<LOCAL_AIS_ROOT>/02_six_port_filtered_parquet","ais-filtered-2024-*.parquet","182","182","ESTIMATION_AND_HISTORY","TRUE"
+"2024","H2","<LOCAL_AIS_ROOT>/marine_cadastre_filtered","ais-filtered-2024-*.parquet","184","184","ESTIMATION_AND_HISTORY","TRUE"
+"2025","FULL","<LOCAL_AIS_ROOT>/marine_cadastre_filtered","ais-filtered-2025-*.parquet","365","365","ESTIMATION_AND_HISTORY","TRUE"

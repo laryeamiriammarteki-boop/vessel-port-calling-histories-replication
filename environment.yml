@@ -1,0 +1,15 @@
+# PENDING — illustrative only; not a verified lockfile.
+name: tp-vessel-port-calling-histories
+channels:
+  - conda-forge
+dependencies:
+  - python>=3.10,<3.13  # catalog ERROR path showed 3.14 locally; pin intentionally after test
+  - pandas
+  - numpy
+  - pyarrow
+  - scipy
+  - statsmodels
+  - matplotlib
+  - pip
+  - pip:
+      - linearmodels

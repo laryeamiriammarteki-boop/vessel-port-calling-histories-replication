@@ -1,0 +1,2 @@
+METRIC,FORMULA,POINT,BOOT_MEAN,BOOT_CI_LOW,BOOT_CI_HIGH,N_BOOT_OK,VALID_AS,VALID_FOR_HEADLINE,POOLED,BETWEEN,WITHIN,H_BETWEEN_VARIANCE_SHARE
+pooled_weight_on_between,(beta_pooled - beta_W) / (beta_B - beta_W),0.8381173929751775,0.8374577520610323,0.8225958475117833,0.8514437362813825,120,accounting identity for how the pooled slope mixes the same-sample Mundlak B and W slopes under port-month FE; NOT a variance share of PortHours and NOT a causal composition share,True,-0.08569915502314221,-0.0971032955868428,-0.026656316919443854,0.8164671914910484

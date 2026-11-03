@@ -1,0 +1,9 @@
+check,ais,official,official_source,ratio_ais_to_official,note
+AIS_LA_calls_2022_2025,4603,,"AIS primary estimation sample, relationship_port=Los_Angeles",,"Cargo AIS constructor, ~25 km box, min 3 h, 2022-2025"
+AIS_LB_calls_2022_2025,7984,,"AIS primary estimation sample, relationship_port=Long_Beach",,Same constructor
+LA_2023_calls,1030,1712,"POLA Facts & Figures vessel arrivals, all cargo types, CY2023",0.6016355140186916,Definitions differ (AIS cargo 70-79 box vs POLA all-cargo arrivals)
+LA_2024_calls,1138,1807,"POLA Facts & Figures vessel arrivals, all cargo types, CY2024",0.6297731045932484,Same definition caveat
+LB_2022_calls_vs_all_OGV,2546,2068,"POLB 2022 Air Emissions Inventory, all OGV arrivals",1.2311411992263057,Closest official all-arrival count; AIS is cargo 70-79 only
+LB_2022_calls_vs_containership,2546,901,"POLB 2022 Air Emissions Inventory, containership arrivals",2.825749167591565,Narrower official class than AIS cargo 70-79; do not mix with POLA all-cargo
+LA_LB_ratio_headline,0.5765280561122245,0.8278529980657641,POLA CY2023 all-cargo / POLB CY2022 all OGV (year mismatch disclosed),0.6964135631075234,Directional test: both < 1 (LB > LA). Mixed containership/all-cargo ratio inverts and is not used.
+BTS_2022_vs_2023_dwell_hours,median 38.86 -> 33.35,mean 34.58 -> 28.50,"BTS nfsh-p62e national monthly average container berth dwell, top 25 ports",0.639980552399452,overlap_months=18; Spearman on overlap stored in ratio field; BTS has no port column in the public extract
