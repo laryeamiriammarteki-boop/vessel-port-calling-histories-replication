@@ -1,4 +1,4 @@
-# Data availability (package-level)
+﻿# Data availability (package-level)
 
 ## Public source AIS
 
@@ -17,4 +17,7 @@ Vessel-level panels with vessel identifiers and relationship-specific calling hi
 
 ## Repository URL / DOI
 
-No public remote URL or DOI is asserted in this local package root. Insert verified links only after an authorized deposit.
+- Public repository: https://github.com/laryeamiriammarteki-boop/vessel-port-calling-histories-replication
+- Blinded review mirror: https://anonymous.4open.science/r/vessel-port-calling-histories-replication-8314/
+- Research-data DOI: none issued
+- License: MIT (Study Authors)
