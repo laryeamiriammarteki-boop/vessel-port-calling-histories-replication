@@ -40,12 +40,12 @@ dpt_Savannah|VT_75_79, dpt_Charleston|VT_75_79, dpt_Long_Beach|VT_75_79, dpt_Oak
 "FUTURE_CALLS_90D","n_future_90d","-0.029248616906739192","0.0070437567716458505","-0.04305412649502518","-0.015443107318453204","3.289817738316714e-05","54788","14022","7891","48657","0.6825220143795865","True","","ef1aafb2c73aef8b825b595cb570481e72586ec0c6c8cb5ebcac6d4dae8b4193","","{""pair_id"": 14022, ""port_week"": 1470}"
 "FUTURE_CALLS_90D","H_W12","-0.058125152789163144","0.014736090584278794","-0.08700735960726938","-0.029242945971056904","7.999737577701893e-05","54788","14022","7891","48657","0.6825220143795865","True","","ef1aafb2c73aef8b825b595cb570481e72586ec0c6c8cb5ebcac6d4dae8b4193","","{""pair_id"": 14022, ""port_week"": 1470}"
 "FE_T1_low","H_W12","","","","","","","","","","","False","ValueError('All columns in exog have been fully absorbed by the included effects. This model cannot be estimated.')","","exception:Traceback (most recent call last):
-  File ""C:\Users\<REDACTED>\Documents\Vessel call a\_VESSEL_PORT_OPERATIONAL_RESILIENCE_2026\04_HUMAN_REVIEW_REVISION\STAGE2_STRUCTURE_IDENTIFICATION\00_code\run_stage2.py"", line 211, in fit_absorb
+  File ""<LOCAL_USER_HOME>\Documents\Vessel call a\_VESSEL_PORT_OPERATIONAL_RESILIENCE_2026\04_HUMAN_REVIEW_REVISION\STAGE2_STRUCTURE_IDENTIFICATION\00_code\run_stage2.py"", line 211, in fit_absorb
     res = model.fit(cov_type=""clustered"", clusters=cl)
-  File ""C:\Users\<REDACTED>\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\linearmodels\iv\absorbing.py"", line 1093, in fit
+  File ""<LOCAL_USER_HOME>\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\linearmodels\iv\absorbing.py"", line 1093, in fit
     self._first_time_fit(use_cache, absorb_options, method)
     ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File ""C:\Users\<REDACTED>\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\linearmodels\iv\absorbing.py"", line 960, in _first_time_fit
+  File ""<LOCAL_USER_HOME>\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\linearmodels\iv\absorbing.py"", line 960, in _first_time_fit
     raise ValueError(
     ...<2 lines>...
     )
